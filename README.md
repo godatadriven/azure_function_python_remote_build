@@ -26,7 +26,8 @@ Besides deploying the resources in Azure, the last step also creates the deploym
 
 ## Deploy the function app
 In the previous step Terraform created the deploy script at `{project root}/scripts/deploy_function_app.sh`.
-This script consists of two steps building the zip, then using the Azure cli to trigger the remote build and deployment.
+This script consists of two steps, first building the zip, then using the Azure cli to trigger the remote build
+and deployment.
 
 The script must be run from the project root so that the path references are correct. There are many ways to run a
 script on the commandline, I like:
