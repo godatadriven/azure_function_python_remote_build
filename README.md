@@ -43,5 +43,5 @@ Note: in case you're extending this example application, the zip file should con
 ## Smoke test
 You can perform a simple smoke-test with `curl` to check that the function is running. The command looks like this for the default values in `{project root}/terraform/variables.tf` 
 ```shell
-curl -i https://{url}/api
+curl https://dev-zipdeploy-functions.azurewebsites.net
 ```
